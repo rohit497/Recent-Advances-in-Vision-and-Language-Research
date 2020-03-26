@@ -76,20 +76,6 @@
     opacity: 1;
 }
 
-.parent:hover .child, .parent:focus .child {
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-}
-
-    .parent:hover .child:before, .parent:focus .child:before {
-        display: block;
-    }
-
 .child:before {
     content: "";
     display: none;
@@ -99,16 +85,6 @@
     top: 0;
     left: 0;
     background-color: rgba(52,73,94,0.75);
-}
-
-.parent:hover .nameBox, .parent:focus .nameBox {
-    opacity: 1;
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    background-color: dimgray;
 }
 
 .backIcon {
