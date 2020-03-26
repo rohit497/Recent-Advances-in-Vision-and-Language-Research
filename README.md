@@ -1,10 +1,50 @@
-## Organizers
 
-![Image](https://convaistorageui.blob.core.windows.net/images/people/Zhe.png) Zhe Gan
-![Image](https://convaistorageui.blob.core.windows.net/images/people/licheng.jpg) Licheng Yu
-![Image](https://convaistorageui.blob.core.windows.net/images/people/Yu.png) Yu Cheng
-![Image](https://convaistorageui.blob.core.windows.net/images/people/JJ.png) Jingjing Liu
-![Image](https://convaistorageui.blob.core.windows.net/images/people/Yuwei.png) Xiaodong He
+## Organizers
+    <div>
+      <div class="instructor">
+        <a href="http://kaiminghe.com/">
+        <div class="instructorphoto"><img src="https://convaistorageui.blob.core.windows.net/images/people/Zhe.png"></div>
+        <div>Zhe Gan<br>Microsft Dynamics 365 AI Research</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="http://feichtenhofer.github.io/">
+        <div class="instructorphoto"><img src="https://convaistorageui.blob.core.windows.net/images/people/licheng.png"></div>
+        <div>Licheng Yu <br>Microsft Dynamics 365 AI Research</div>
+        </a>
+      </div>
+      <br>
+      <div class="instructor">
+      <a href="http://cs.stanford.edu/people/jcjohns/">
+        <div class="instructorphoto"><img src="http://cs.stanford.edu/people/jcjohns/images/me-v2.jpg" id="justin"></div>
+        <div><br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://alexander-kirillov.github.io/">
+        <div class="instructorphoto"><img src="./Tutorial_files/alex.jpg" id="alex"></div>
+        <div>Alexander Kirillov<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="http://people.eecs.berkeley.edu/~gkioxari/">
+        <div class="instructorphoto"><img src="./Tutorial_files/georgia.jpg" id="georgia"></div>
+        <div>Georgia Gkioxari<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://pdollar.github.io/">
+        <div class="instructorphoto"><img src="./Tutorial_files/piotr.jpg" id="piotr"></div>
+        <div>Piotr Dollàr<br>FAIR</div>
+        </a>
+      </div>
+    </div>
+    <p></p>
+</div>
 
 ## Abstract
 
