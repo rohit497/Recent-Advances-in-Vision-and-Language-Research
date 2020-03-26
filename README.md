@@ -1,6 +1,10 @@
 ## Organizers
 
-The organizers of this tutorial are Zhe Gan, Licheng Yu, Yu Cheng, Jingjing Liu, Xiaodong He
+![Image](https://convaistorageui.blob.core.windows.net/images/people/Zhe.png) Zhe Gan
+![Image](https://convaistorageui.blob.core.windows.net/images/people/licheng.jpg) Licheng Yu
+![Image](https://convaistorageui.blob.core.windows.net/images/people/Yu.png) Yu Cheng
+![Image](https://convaistorageui.blob.core.windows.net/images/people/JJ.png) Jingjing Liu
+![Image](https://convaistorageui.blob.core.windows.net/images/people/Yuwei.png) Xiaodong He
 
 ## Abstract
 
