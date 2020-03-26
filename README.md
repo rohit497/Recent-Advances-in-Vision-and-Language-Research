@@ -1,5 +1,3 @@
-# Recent Advances in Vision-and-Language Research
-
 ## Organizers
 
 The organizers of this tutorial are Zhe Gan, Licheng Yu, Yu Cheng, Jingjing Liu, Xiaodong He
