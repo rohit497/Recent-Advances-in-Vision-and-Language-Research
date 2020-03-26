@@ -1,4 +1,24 @@
-## Welcome to GitHub Pages
+# Recent Advances in Vision-and-Language Research
+
+## Organizers
+
+The organizers of this tutorial are Zhe Gan, Licheng Yu, Yu Cheng, Jingjing Liu, Xiaodong He
+
+## Abstract
+
+This is the splash page for our CVPR tutorial on Recent Advances in Vision-and-Language (V+L) Research. The tutorial is pivoted on understanding, reasoning, and generation over multimodalities, covering state-of-the-art approaches and principles in recent popular V+L tasks, including visual captioning, visual grounding, visual question answering and reasoning, text-to-image generation, and self-supervised learning for universal image-text representations.
+
+## Agenda
+
+ 08:45-09:00: Opening and Introduction
+ 09:00-09:40: Visual Captioning 
+ 09:40-10:20: Visual Grounding,Visual QuestionAnswering, and Visual Reasoning 
+ 10:20-10:40: Coffee Break 
+ 10:40-11:20: Text-to-image Generation 
+ 11:20 - 12:00: Self-supervised Learning for Vision and Language
+
+
+
 
 You can use the [editor on GitHub](https://github.com/rohit497/CVPRTutorial/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
