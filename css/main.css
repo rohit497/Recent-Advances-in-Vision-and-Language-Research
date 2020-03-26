@@ -55,29 +55,10 @@
     -moz-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
-}
-
-.moraleChild {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-    image-orientation: from-image;
-    margin-bottom: 10px;
 }
 
 .nameBox {
