@@ -1,0 +1,293 @@
+
+.content {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+.profileDescription img {
+    border-radius: 50%;
+    height: 65%;
+    width: 65%;
+    margin-bottom: 1em;
+    animation: fadein65 2s;
+    -moz-animation: fadein65 2s; /* Firefox */
+    -webkit-animation: fadein65 2s; /* Safari and Chrome */
+    -o-animation: fadein65 2s; /* Opera */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profileDescription a {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.profileDescription {
+    margin-top: 1%;
+}
+
+    .profileDescription p {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.5em;
+        color: darkslategray;
+        margin-top: 10px;
+    }
+
+.parent {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    padding: 1%;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.moraleChild {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    image-orientation: from-image;
+    margin-bottom: 10px;
+}
+
+.nameBox {
+    transition: .5s ease;
+    opacity: 0.7;
+    transform: translate(0%, -100%);
+    background-color: rgb(191,144,0);
+}
+
+.nameText {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    opacity: 1;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+    .parent:hover .child:before, .parent:focus .child:before {
+        display: block;
+    }
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+.parent:hover .nameBox, .parent:focus .nameBox {
+    opacity: 1;
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    background-color: dimgray;
+}
+
+.backIcon {
+    font-size: 300%;
+    font-weight: bold;
+    color: rgb(191,144,0);
+    text-align: left;
+    padding-top: 10%;
+    cursor: pointer;
+}
+
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@keyframes fadein65 {
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 65%;
+        width: 65%;
+    }
+}
+
+@-moz-keyframes fadein65 { /* Firefox */
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 65%;
+        width: 65%;
+    }
+}
+
+@-webkit-keyframes fadein65 { /* Safari and Chrome */
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 65%;
+        width: 65%;
+    }
+}
+
+@-o-keyframes fadein65 { /* Opera */
+    from {
+        opacity: 0;
+        height: 20%;
+        width: 20%;
+    }
+
+    to {
+        opacity: 1;
+        height: 65%;
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #profileDetails a {
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    #profileDetails p {
+        font-size: 1.2em;
+        color: darkslategray;
+        margin-top: 10px;
+    }
+
+    .profileDescription a {
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    .profileDescription p {
+        font-size: 1.2em;
+        color: darkslategray;
+        margin-top: 10px;
+    }
+
+    .backIcon {
+        font-size: 250%;
+    }
+}
