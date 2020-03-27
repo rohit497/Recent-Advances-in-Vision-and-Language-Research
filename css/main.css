@@ -15,6 +15,7 @@
     -webkit-animation: fadein65 2s; /* Safari and Chrome */
     -o-animation: fadein65 2s; /* Opera */
     object-fit: contain;
+    text-align: center;
 }
 
 .profileDescription a {
