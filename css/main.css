@@ -14,7 +14,6 @@
     -moz-animation: fadein65 2s; /* Firefox */
     -webkit-animation: fadein65 2s; /* Safari and Chrome */
     -o-animation: fadein65 2s; /* Opera */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     object-fit: contain;
 }
 
