@@ -7,7 +7,6 @@
 }
 
 .profileDescriptionImg {
-    border-radius: 50%;
     height: 65%;
     width: 65%;
     margin-bottom: 1em;
@@ -15,6 +14,7 @@
     -moz-animation: fadein65 2s; /* Firefox */
     -webkit-animation: fadein65 2s; /* Safari and Chrome */
     -o-animation: fadein65 2s; /* Opera */
+    object-fit: contain;
 }
 
 .profileDescription a {
