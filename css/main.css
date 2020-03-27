@@ -70,6 +70,7 @@
 }
 
 .nameText {
+    text-align: center;
     color: black;
     font-size: 1em;
     font-weight: bold;
