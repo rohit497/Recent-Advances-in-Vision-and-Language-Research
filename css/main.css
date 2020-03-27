@@ -7,8 +7,8 @@
 }
 
 .cvprImg {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     margin-bottom: 1em;
     object-fit: contain;
 }
