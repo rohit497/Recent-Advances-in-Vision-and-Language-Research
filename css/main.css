@@ -7,6 +7,7 @@
 }
 
 .profileDescriptionImg {
+    border-radius: 50%;
     height: 65%;
     width: 65%;
     margin-bottom: 1em;
@@ -72,7 +73,6 @@
     color: black;
     font-size: 1em;
     font-weight: bold;
-    padding: 2px;
     opacity: 1;
 }
 
