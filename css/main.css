@@ -8,8 +8,8 @@
 
 .profileDescriptionImg {
     border-radius: 50%;
-    height: 65%;
-    width: 65%;
+    height: 100%;
+    width: 100%;
     margin-bottom: 1em;
     animation: fadein65 2s;
     -moz-animation: fadein65 2s; /* Firefox */
