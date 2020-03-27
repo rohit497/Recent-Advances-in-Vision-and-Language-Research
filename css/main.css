@@ -6,6 +6,13 @@
     margin-right: auto;
 }
 
+.cvprImg {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+    object-fit: contain;
+}
+
 .profileDescriptionImg {
     height: 65%;
     width: 65%;
