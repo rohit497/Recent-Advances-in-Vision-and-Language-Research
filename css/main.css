@@ -6,6 +6,31 @@
     margin-right: auto;
 }
 
+.containersmall {
+	width: 1100px;
+	min-height: 10px;
+	margin: 0 auto; /* top and bottom, right and left */
+	border: 1px hidden #000;
+	/* border: none; */
+	text-align: left;
+	padding: 1em 1em 1em 1em; /* top, right, bottom, left */
+	color: #4d4b59;
+	background: #f7f7f7;
+}
+
+.instructorphoto img {
+  width: 120px;
+  border-radius: 120px;
+  margin-bottom: 10px;
+}
+
+.instructor {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin-right: 20px;
+}
+
 .cvprImg {
     height: 80%;
     width: 80%;
