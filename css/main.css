@@ -63,19 +63,23 @@
 }
 
 .profileDescriptionImg {
-    height: 65%;
-    width: 65%;
+    height: 250px;
+    width: 250px;
     margin-bottom: 1em;
     animation: fadein65 2s;
     -moz-animation: fadein65 2s; /* Firefox */
     -webkit-animation: fadein65 2s; /* Safari and Chrome */
     -o-animation: fadein65 2s; /* Opera */
-    object-fit: contain;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .imgDiv {
     text-align: center;    
 }
+
+
 
 .profileDescription a {
     margin-right: 10px;
