@@ -40,7 +40,6 @@
 
 .container {
 	width: 1100px;
-	min-height: 200px;
 	margin: 0 auto; /* top and bottom, right and left */
 	border: 1px hidden #000;
 	/* border: none; */
@@ -48,6 +47,10 @@
 	padding: 1em 1em 1em 1em; /* top, right, bottom, left */
 	color: #4d4b59;
 	background: #f7f7f7;
+}
+
+.center-header {
+	text-align: center	
 }
 
 .textContainer {
